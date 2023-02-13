@@ -64,7 +64,7 @@
   border-radius: 20px;
   color: #fff;
   font-weight: bold;
-  animation: submitAnimate 2s infinite 0s ease-in-out;
+  animation: submitAnimate .5s infinite 0s;
   /* border: 1px solid rgb(0, 254, 55); */
 }
 .email-content button:hover {
@@ -73,19 +73,32 @@
 }
 @keyframes submitAnimate {
   0%,
-  50%,
   100% {
     background: linear-gradient(
-      to bottom right,
+      to top left,
       rgba(166, 52, 126),
       rgb(86, 46, 181)
     );
   }
-  25%,
+  25% {
+    background: linear-gradient(
+      to top right,
+      rgb(195, 47, 143),
+      rgb(86, 46, 181)
+    );
+  }
+  50% {
+    background: linear-gradient(
+      to bottom right,
+      rgb(234, 37, 165),
+      rgb(86, 46, 181)
+    );
+  }
+
   75% {
     background: linear-gradient(
-      to top left,
-      rgba(166, 52, 126),
+      to bottom left,
+      rgb(195, 47, 143),
       rgb(86, 46, 181)
     );
   }
