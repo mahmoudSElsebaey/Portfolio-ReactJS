@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 * {
@@ -20,3 +21,4 @@ html {
   scroll-padding-top: 75px;
   /* overflow: hidden; */
 }
+
