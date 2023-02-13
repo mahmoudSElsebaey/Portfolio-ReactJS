@@ -1,0 +1,181 @@
+.home-sec {
+  padding-bottom: 100px;
+  /* border: 1px solid #ff0000; */
+}
+
+.home-page {
+  margin: 0 auto 10px;
+  display: flex;
+  padding-top: 150px;
+  /* padding-bottom: 100px; */
+  /* border: 1px solid #58d2ed; */
+}
+
+.home-info {
+  width: 50vw;
+  /* border: 1px solid #58d2ed; */
+}
+
+.msg-welcome {
+  border: 1px solid rgba(226, 244, 248, 0.3);
+  background: linear-gradient(to right, rgba(166, 52, 126), rgb(86, 46, 181));
+  width: fit-content;
+  padding: 7px 15px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 18px;
+}
+/* #1773b9 #020e1e */
+
+.my-info {
+  width: 50vw;
+  height: auto;
+  color: #ffff;
+  font-size: 5vw;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 1.15;
+  /* border: 1px solid #cd8dfb; */
+}
+
+.my-info .react-typewriter-text {
+  font-size: 6vw;
+  font-size: 5vw;
+  font-weight: bold;
+  display: inline-block;
+  /* border: 1px solid red; */
+  /* background: #1874b9; */
+  /* background: -webkit-linear-gradient(left, #1874b9, #030f1e);
+  background: -moz-linear-gradient(left, #1874b9, #030f1e); */
+  /* background: linear-gradient(to right, #1873b954, #030f1e47); */
+}
+
+.msg-info {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.733);
+  font-size: 18px;
+  /* border: 1px solid #cd8dfb; */
+}
+
+.connect {
+  color: #fff !important;
+  margin-top: 60px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 23px;
+  width: fit-content;
+  /* border: 1px solid #cd8dfb; */
+}
+.connect i {
+  transition: all 0.3s;
+}
+.connect:hover i {
+  margin-left: 20px;
+}
+
+/* ------------------------------------------------ home-img-moving */
+
+.home-img-moving {
+  width: 30vw;
+  background-image: url("./../../assets/melaniko-astro.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  position: relative;
+  animation: Rocket-Zoom-out 0.5s 1 0s, Rocket-moving 5s infinite 0s linear;
+  /* border: 1px solid green; */
+}
+
+@keyframes Rocket-Zoom-out {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes Rocket-moving {
+  0% {
+    top: -20px;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: -20px;
+  }
+}
+
+/* ------------------------------ Responsive for mobile */
+
+@media only screen and (max-width: 450px) {
+  .home-page {
+    flex-wrap: wrap;
+    padding-top: 80px;
+  }
+  .home-info {
+    width: 100%;
+  }
+  .msg-welcome {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 40px 0 20px;
+  }
+  .my-info {
+    width: 80%;
+    height: 100px;
+    letter-spacing: .3vw;
+    line-height: 1.5;
+    font-size: 8vw;
+  }
+  .my-info .react-typewriter-text {
+    font-size: 7.8vw;
+    width: 120% !important;
+  }
+  .msg-info {
+    font-size: 16px;
+    padding-top: 30px;
+  }
+  .connect {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .connect i {
+    transition: all 0.3s;
+    font-size: 18px;
+    /* font-weight: bold; */
+  }
+  .home-img-moving {
+    animation: Rocket-Zoom-out 0.5s 1 0s, Rocket-moving-X 10s infinite 0s linear;
+    width: 130px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-top: 15px;
+    margin-bottom: -30px;
+    /* animation: none; */
+  /* border: 1px solid green; */
+}
+
+  @keyframes Rocket-moving-X {
+    0% {
+      left: 50%;
+      top: 0;
+    }
+    25% {
+      left: 50%;
+      top: -120px;
+    }
+    50% {
+      left: 50%;
+      top: 0px;
+    }
+    75% {
+      left: 0;
+    }
+    100% {
+      left: 50%;
+    }
+  }
+}

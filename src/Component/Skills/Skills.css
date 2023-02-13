@@ -1,0 +1,68 @@
+.skills {
+  height: 450px;
+  /* background: #030f1e;
+  background: linear-gradient(to bottom left, #011d33, #020e1c); */
+  background: #00243e;
+  background: linear-gradient(to top right, #00243e, #030f1e);
+  position: relative;
+  top: 60px;
+  color: #fff;
+  /* border: 1px solid red; */
+}
+
+.skills-page {
+  /* height: 400px; */
+  padding-bottom: 20px;
+  position: relative;
+  top: -50px;
+  border-radius: 50px;
+  background: #01152d;
+  /* border: 1px solid rgb(0, 30, 255); */
+}
+
+.skills-title {
+  text-align: center;
+  padding-top: 20px;
+  /* border: 1px solid red; */
+}
+
+.skills-title h3 {
+  font-weight: bold;
+  font-size: 3.5vw;
+}
+
+.skills-title p {
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: capitalize;
+}
+
+.skill-name {
+  font-weight: bold;
+  color: #fff;
+  margin-top: -40px;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+/* ----------------------------------------------- skills-carousel */
+.skills-carousel {
+  /* border: 1px solid red; */
+  width: 70%;
+  margin: auto;
+}
+
+/* ------------------------------ Responsive for mobile */
+
+@media only screen and (max-width: 450px) {
+  .skills-page {
+    width: 90% !important;
+  }
+
+  .skills-title h3 {
+    font-size: 8vw;
+    letter-spacing: 0.5vw;
+  }
+  .skills-title p {
+    font-size: smaller;
+  }
+}

@@ -1,0 +1,208 @@
+#navbar {
+  /* background-color: rgba(0, 0, 0, 0.0); */
+  transition: all 0.2s linear;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  /* height: 75px; */
+
+  /* border: 1px solid red; */
+}
+.scrolled {
+  background-color: rgba(18, 18, 18, 0.9);
+  /* height: 75px; */
+  /* padding-bottom: 20px; */
+}
+
+#navbar a {
+  color: #fff;
+}
+.navbar-logo {
+  font-size: 43px !important;
+  font-weight: bold;
+}
+
+.navbar-logo:hover {
+  color: #fff !important;
+}
+
+/* ---------------------------------------------- Navbar Links ---------------------------------*/
+
+.navbar-links {
+  margin-left: auto;
+  /* border: 1px solid rgb(0, 255, 68); */
+}
+.navbar-links a {
+  margin-right: 3vw;
+  font-size: 18px;
+  color: rgba(217, 210, 210, 0.8) !important;
+  transition: color 0.5s linear;
+  font-weight: 600;
+  position: relative;
+}
+/* .navbar-links a:hover {
+  color: #fff !important;
+} */
+.navbar-links a.active {
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+.navbar-links a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, transparent, #fff, transparent);
+  transform: scaleX(0);
+  transition: 0.3s;
+}
+.navbar-links a.active::after {
+  transform: scale(1);
+}
+
+.navbar-connect {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+}
+
+/* ---------------------------------------------- Navbar Social icons ---------------------------------*/
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 3vw;
+  /* border: 1px solid red; */
+}
+
+.social-icons a {
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: rgb(50, 48, 48);
+  border-radius: 50%;
+  margin-right: 0.5vw;
+  color: #fff;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.social-icons a::after {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  left: 0%;
+  top: 0%;
+  transition: all 0.3s;
+  transform: scale(0);
+  /* transform: translate(50%,50%); */
+}
+.social-icons a:hover:after {
+  transform: scale(1.05);
+  z-index: -1;
+}
+.social-icons a:hover {
+  color: #000 !important;
+  z-index: 5;
+}
+/* ---------------------------------------------- Navbar Button ---------------------------------*/
+.navbar-btn {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 20px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.navbar-btn::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.navbar-btn:hover:after {
+  width: 100%;
+}
+/* 
+.navbar-btn:focus::after {
+  width: 100%;
+}
+
+.navbar-btn:focus {
+  color: black !important;
+} */
+.navbar-btn:hover {
+  color: black !important;
+}
+
+/* -------------------------------- Responsive for mobiles  */
+@media only screen and (max-width: 450px) {
+  #navbar {
+    /* border: 1px solid green; */
+    background-color: black;
+  }
+  .navbar-links {
+    /* border: 1px solid rgb(9, 255, 243); */
+    height: 500px !important;
+    /* text-align: center; */
+  }
+
+  .navbar-connect {
+    margin-top: 50px;
+    /* border: 1px solid rgb(9, 255, 29); */
+  }
+  .navbar-connect .social-icons {
+    /* width: 60%; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgb(13, 9, 255); */
+  }
+  .navbar-connect .social-icons a {
+    margin-right: 20px;
+    
+  }
+  .navbar-btn {
+    margin: 30px 0;
+    /* margin-left: 50%; */
+  }
+
+  .navbar-toggler-icon {
+    color: #fff !important;
+    /* background-color: #fff; */
+    /* border: 1px solid red; */
+  }
+  /* .navbar-container button {
+    background-color: green;
+    outline: 1px solid green;
+    border: 1px solid green;
+  } */
+
+  .navbar-container button:focus:not(:focus-visible) {
+    outline: 5px solid #000;
+  }
+
+  .navbar-links a::after{
+    width: 0;
+    background-color: #fff;
+    transform: none;
+  }
+  .navbar-links a.active::after {
+    width: max-content;
+  }
+}
