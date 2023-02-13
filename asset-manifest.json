@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio-ReactJS/static/css/main.b001b6eb.css",
+    "main.js": "/Portfolio-ReactJS/static/js/main.9c4a5bee.js",
+    "static/media/Editing body text-amico.png": "/Portfolio-ReactJS/static/media/Editing body text-amico.7b8554088b5d051f1141.png",
+    "static/media/fa-solid-900.ttf": "/Portfolio-ReactJS/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/Portfolio-ReactJS/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/Portfolio-ReactJS/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/Portfolio-ReactJS/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/Portfolio-ReactJS/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/projects-3.jpeg": "/Portfolio-ReactJS/static/media/projects-3.5920c265fc73995d9503.jpeg",
+    "static/media/projects-6.jpg": "/Portfolio-ReactJS/static/media/projects-6.fc370fd5dd47bdcb8f74.jpg",
+    "static/media/fa-regular-400.woff2": "/Portfolio-ReactJS/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/bg-home2.jpg": "/Portfolio-ReactJS/static/media/bg-home2.1023bc57e2aad5899f66.jpg",
+    "static/media/melaniko-astro.png": "/Portfolio-ReactJS/static/media/melaniko-astro.8ef103605b7f4dc6bab7.png",
+    "static/media/projects-5.jpg": "/Portfolio-ReactJS/static/media/projects-5.376f8962c408b327e4ae.jpg",
+    "static/media/projects-2.jpeg": "/Portfolio-ReactJS/static/media/projects-2.fdeedb5736ed97e6faa8.jpeg",
+    "static/media/projects-4.jpeg": "/Portfolio-ReactJS/static/media/projects-4.ed8725a4797cd7be29d0.jpeg",
+    "static/media/projects-1.jpeg": "/Portfolio-ReactJS/static/media/projects-1.5017ebbca857a7e08ebc.jpeg",
+    "static/media/revicons.eot": "/Portfolio-ReactJS/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Portfolio-ReactJS/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/fa-v4compatibility.ttf": "/Portfolio-ReactJS/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/revicons.woff": "/Portfolio-ReactJS/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/fa-v4compatibility.woff2": "/Portfolio-ReactJS/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/Portfolio-ReactJS/index.html",
+    "main.b001b6eb.css.map": "/Portfolio-ReactJS/static/css/main.b001b6eb.css.map",
+    "main.9c4a5bee.js.map": "/Portfolio-ReactJS/static/js/main.9c4a5bee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b001b6eb.css",
+    "static/js/main.9c4a5bee.js"
+  ]
+}
