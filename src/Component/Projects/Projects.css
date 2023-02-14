@@ -178,9 +178,40 @@
   text-align: center;
 }
 
-/* ------------------------------ Responsive for mobile */
 
-@media only screen and (max-width: 450px) {
+/* ------------------------------ Responsive for ipad */
+
+@media only screen and (max-width: 770px) {
+  .projects-title h3 {
+    font-size: 8vw;
+  }
+  .projects-title p {
+    font-size: smaller;
+  }
+ 
+  .projects-links .btn {
+    height: 50px;
+    line-height: 35px;
+    font-size: 15px;
+  }
+  .section1{
+    width: 100% !important;
+  }
+  .project-card {
+    width: 48%;
+    margin-top: 2vw;
+  }
+  .sec2-text,
+  .sec3-text {
+    width: 95%;
+    letter-spacing: 0.8px;
+  }
+}
+
+
+
+/* ------------------------------ Responsive for mobile */
+@media only screen and (max-width: 500px) {
   .projects-title h3 {
     font-size: 8vw;
   }
@@ -213,3 +244,4 @@
     text-align: left;
   }
 }
+

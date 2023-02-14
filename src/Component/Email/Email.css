@@ -64,7 +64,7 @@
   border-radius: 20px;
   color: #fff;
   font-weight: bold;
-  animation: submitAnimate .5s infinite 0s;
+  animation: submitAnimate 0.5s infinite 0s;
   /* border: 1px solid rgb(0, 254, 55); */
 }
 .email-content button:hover {
@@ -101,6 +101,33 @@
       rgb(195, 47, 143),
       rgb(86, 46, 181)
     );
+  }
+}
+/* ------------------------------ Responsive for ipad */
+
+@media only screen and (max-width: 1000px) {
+  .email-page {
+    width: 95% !important;
+  }
+  .email-content {
+    width: 90%;
+  }
+  .email-content p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .email-submit {
+    width: 100%;
+  }
+  .email-content input {
+    height: 60px;
+    margin-top: 0;
+  }
+  .email-content button {
+    width: 100px;
+    height: 50px;
+    top: 8%;
+    font-size: 15px;
   }
 }
 /* ------------------------------ Responsive for mobile */

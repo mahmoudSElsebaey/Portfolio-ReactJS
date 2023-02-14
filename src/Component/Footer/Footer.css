@@ -38,6 +38,28 @@
 }
 /* ------------------------------ Responsive for mobile */
 
+@media only screen and (max-width: 770px) {
+  .footer-page {
+    flex-wrap: wrap;
+    padding: 150px 0 50px;
+  }
+  .footer-logo {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+  }
+  .footer-social .social-icons {
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+  }
+  .footer-social p{
+    text-align: center;
+  }
+}
+/* ------------------------------ Responsive for mobile */
+
 @media only screen and (max-width: 450px) {
   .footer-page {
     flex-wrap: wrap;

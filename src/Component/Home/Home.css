@@ -108,7 +108,10 @@
 
 /* ------------------------------ Responsive for mobile */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
+  .home-sec {
+    padding-bottom: 60px;
+  }
   .home-page {
     flex-wrap: wrap;
     padding-top: 80px;
@@ -125,7 +128,7 @@
   .my-info {
     width: 80%;
     height: 100px;
-    letter-spacing: .3vw;
+    letter-spacing: 0.3vw;
     line-height: 1.5;
     font-size: 8vw;
   }
@@ -155,8 +158,8 @@
     margin-top: 15px;
     margin-bottom: -30px;
     /* animation: none; */
-  /* border: 1px solid green; */
-}
+    /* border: 1px solid green; */
+  }
 
   @keyframes Rocket-moving-X {
     0% {
