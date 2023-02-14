@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-ReactJS/static/css/main.03d0a60c.css",
+    "main.css": "/Portfolio-ReactJS/static/css/main.fcfaffd4.css",
     "main.js": "/Portfolio-ReactJS/static/js/main.9c4a5bee.js",
     "static/media/Editing body text-amico.png": "/Portfolio-ReactJS/static/media/Editing body text-amico.7b8554088b5d051f1141.png",
     "static/media/fa-solid-900.ttf": "/Portfolio-ReactJS/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
@@ -23,11 +23,11 @@
     "static/media/revicons.woff": "/Portfolio-ReactJS/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/fa-v4compatibility.woff2": "/Portfolio-ReactJS/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/Portfolio-ReactJS/index.html",
-    "main.03d0a60c.css.map": "/Portfolio-ReactJS/static/css/main.03d0a60c.css.map",
+    "main.fcfaffd4.css.map": "/Portfolio-ReactJS/static/css/main.fcfaffd4.css.map",
     "main.9c4a5bee.js.map": "/Portfolio-ReactJS/static/js/main.9c4a5bee.js.map"
   },
   "entrypoints": [
-    "static/css/main.03d0a60c.css",
+    "static/css/main.fcfaffd4.css",
     "static/js/main.9c4a5bee.js"
   ]
 }
